@@ -2,7 +2,7 @@ const Discord=require('discord.js');
 const client=new Discord.Client({partials: ["MESSAGE", "CHANNEL", "REACTION"]});
 
 const prefix= '!';
-
+//Unfinished Code for Bot.
 client.once('ready', ()=>{ 
     console.log('Ready to be Big Brain'); 
 })
